@@ -1,0 +1,16 @@
+para realizar gitignore => https://www.toptal.com/developers/gitignore
+pip => https://pypi.org/project/pip/
+
+crear un entorno virtual por proyecto
+1. entro a mi carpeta del proyecto
+2. python3 -m venv my-env => my-env => es el nombre como yo llamo a mi entorno virtual
+3. source my-env/bin/activate => para activar el entorno
+4. deactivate => para desactivar
+
+crea archivo con informacion adentro
+pip3 freeze > requirements.txt => crea el archivo requirements.txt con lo de la lista
+
+instalar atraves de requirements.txt
+pip3 install -r requirements.txt
+
+
